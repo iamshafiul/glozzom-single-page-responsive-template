@@ -1,0 +1,70 @@
+.navbar {
+  background: #000;
+ }
+  .navbar .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+.carousel-item{
+	height: 450px;
+}
+.carousel-img-1{
+	background-image:url('../img/image1.jpeg');
+	background-size: cover;
+}
+.carousel-img-2{
+	background-image:url('../img/image2.jpeg');
+	background-size: cover;
+}
+.carousel-img-3{
+	background-image:url('../img/image3.jpeg');
+	background-size: cover;
+}
+#home-icon .fas{
+	font-size: 40px;
+}
+#home-getstarted{
+	background-image: url('../img/bg1.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 250px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.overlay{
+	background-color:rgba(0,0,0,0.7);
+	position:absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+#home-video{
+	background-image: url('../img/people.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-repeat: no-repeat;
+	min-height: 250px;
+}
+#home-video .fab{
+	font-size: 40px;
+	color: red;
+}
+.dark-overlay{
+	background-color: rgba(0,0,0,0.7);
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+#gallery img{
+	min-height: 250px;
+}
+
+#fotter-id{
+  background-color: #000000;
+}
